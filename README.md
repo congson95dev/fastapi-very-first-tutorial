@@ -17,5 +17,4 @@ This tutorial is not fully present to us about the CRUD, so we need to learn fro
 
 There're serveral of tutorial that we can learn from, such as: <br>
 https://testdriven.io/blog/fastapi-beanie/ <br>
-https://testdriven.io/blog/moving-from-flask-to-fastapi/ <br>
 https://testdriven.io/blog/fastapi-mongo/
