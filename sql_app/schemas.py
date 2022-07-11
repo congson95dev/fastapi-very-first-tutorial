@@ -16,7 +16,7 @@ class Item(ItemBase):
     id: int
     owner_id: int
 
-    # use this orm_mode = True so it can read the data even if it is not a dict, but an ORM model
+    # use this orm_mode = True so it can return the data even if it is not a dict, but an ORM model
     class Config:
         orm_mode = True
 
@@ -34,6 +34,6 @@ class User(UserBase):
     is_active: bool
     items: List[Item] = []
 
-    # use this orm_mode = True so it can read the data even if it is not a dict, but an ORM model
+    # use this orm_mode = True so it can return the data even if it is not a dict, but an ORM model
     class Config:
         orm_mode = True
