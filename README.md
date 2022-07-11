@@ -11,10 +11,13 @@ To run the app: <br>
 `uvicorn main:app --reload`
 
 After you run this command, go to http://127.0.0.1:8000/docs to see the result <br>
-In this command `uvicorn main:app --reload`, it run the main.py
+In this command `uvicorn main:app --reload`, it run the `main.py`
 
 This tutorial is not fully present to us about the CRUD, so we need to learn from some other tutorials
 
 There're serveral of tutorial that we can learn from, such as: <br>
 https://testdriven.io/blog/fastapi-beanie/ <br>
 https://testdriven.io/blog/fastapi-mongo/
+
+I've create a fully complete CRUD module: <br>
+https://github.com/saxsax1995/fast-api-postgres-crud-api
