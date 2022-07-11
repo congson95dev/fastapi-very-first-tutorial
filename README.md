@@ -13,6 +13,10 @@ To run the app: <br>
 After you run this command, go to http://127.0.0.1:8000/docs to see the result <br>
 In this command `uvicorn main:app --reload`, it run the `main.py`
 
+Or could run by `uvicorn sql_app.main:app --reload`, it will go to `sql_app` folder, then run `main.py`
+<br>
+(This is a CRUD using sqlite db, but in very first look)
+
 This tutorial is not fully present to us about the CRUD, so we need to learn from some other tutorials
 
 There're serveral of tutorial that we can learn from, such as: <br>
