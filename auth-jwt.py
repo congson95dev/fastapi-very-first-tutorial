@@ -14,6 +14,7 @@ ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 30
 
 
+# password is "secret"
 fake_users_db = {
     "johndoe": {
         "username": "johndoe",
