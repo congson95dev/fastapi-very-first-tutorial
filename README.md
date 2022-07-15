@@ -25,3 +25,5 @@ https://testdriven.io/blog/fastapi-mongo/
 
 I've create a fully complete CRUD module: <br>
 https://github.com/saxsax1995/fast-api-postgres-crud-api
+
+Also, for authenticate example, run `uvicorn auth:app --reload` or `uvicorn auth-jwt:app --reload`
