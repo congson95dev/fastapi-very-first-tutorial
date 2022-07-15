@@ -5,6 +5,8 @@
 # features = [my_func_1(), my_func_2()]
 # asyncio.gather(*features)
 
+# example get from:
+# https://stackoverflow.com/questions/61316540/how-to-get-python-fastapi-async-await-functionality-to-work-properly
 
 from fastapi import FastAPI
 import time
